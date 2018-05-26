@@ -1,0 +1,22 @@
+{
+  "name": "build-your-own-blockchain",
+  "version": "1.0.0",
+  "description": "Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjvenky/build-your-own-blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjvenky/build-your-own-blockchain/issues"
+  },
+  "homepage": "https://github.com/kjvenky/build-your-own-blockchain#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}

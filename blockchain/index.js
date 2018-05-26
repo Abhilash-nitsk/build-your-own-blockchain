@@ -12,6 +12,7 @@ class Blockchain {
     return block;
   }
 
+  // Function to identify of the chain is valid or not.
   isValidChain(chain) {
     if(JSON.stringify(chain[0]) !== JSON.stringify(Block.genesis())) return false;
 

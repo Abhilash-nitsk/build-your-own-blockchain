@@ -4,7 +4,7 @@
   "description": "Demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,14 @@
     "url": "https://github.com/kjvenky/build-your-own-blockchain/issues"
   },
   "homepage": "https://github.com/kjvenky/build-your-own-blockchain#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
   "devDependencies": {
-    "nodemon": "^1.17.5"
+    "nodemon": "^1.17.5",
+    "jest": "^23.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
   }
 }
